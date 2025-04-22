@@ -1,0 +1,98 @@
+[
+    {
+      "date": "2025-02-01",
+      "person": "Spencer",
+      "events": {
+        "academic": [
+          {
+            "type": "class",
+            "course": "CS6501",
+            "start_time": "10:00",
+            "end_time": "11:15",
+            "location": "Rice Hall 130"
+          },
+          {
+            "type": "assignment_due",
+            "course": "STAT6021",
+            "description": "Final project video submission",
+            "assignment_type": "video",
+            "difficulty": 7
+          },
+          {
+            "_comment": "Suggested values for assignment_type:",
+            "assignment_type_suggestions": [
+              "homework",
+              "project",
+              "presentation",
+              "report",
+              "code",
+              "video",
+              "essay",
+              "quiz",
+              "lab"
+            ]
+          }
+        ],
+        "work": [
+          {
+            "job_title": "Research Assistant",
+            "hours": 3,
+            "tasks": ["Annotated papers", "Wrote intro paragraph"],
+            "exertion": 5
+          }
+        ],
+        "exercise": [
+          {
+            "type": "walking",
+            "duration_minutes": 45,
+            "notes": "Walked around campus",
+            "exertion": 3
+          },
+          {
+            "type": "bodyweight",
+            "duration_minutes": 15,
+            "notes": "Pushups + planks at home",
+            "exertion": 6
+          }
+        ],
+        "activities": [
+          {
+            "type": "journaling",
+            "description": "Reflected on burnout",
+            "duration_minutes": 20
+          },
+          {
+            "type": "creative",
+            "description": "Made a short poem",
+            "duration_minutes": 30
+          },
+          {
+            "type": "gaming",
+            "description": "Played Stardew Valley"
+          },
+          {
+            "_comment": "Suggested values for activities.type:",
+            "activity_type_suggestions": [
+              "journaling",
+              "cleaning",
+              "gaming",
+              "errands",
+              "creative",
+              "watching_tv",
+              "socializing",
+              "cooking",
+              "reading",
+              "meditation",
+              "browsing",
+              "volunteering",
+              "shopping",
+              "admin",
+              "misc"
+            ]
+          }
+        ],
+        "notes": "Felt decent. Video took longer than expected to edit."
+      }
+    }
+  ]
+  
