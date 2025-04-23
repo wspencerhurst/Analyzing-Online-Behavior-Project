@@ -1,0 +1,3733 @@
+[
+  {
+    "date": "2025-01-20",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-21",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-22",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-23",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-24",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-25",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-26",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-27",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-28",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-29",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-30",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-01-31",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-01",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-02",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-04",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-05",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-06",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-07",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-08",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-09",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-10",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-11",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-12",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-13",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-14",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-15",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-16",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-17",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-18",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-19",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-20",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-21",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-22",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-23",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-24",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-25",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-26",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-27",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-02-28",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-01",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-02",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-04",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-05",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-06",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-07",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-08",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-09",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-10",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-11",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-12",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-13",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-14",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-15",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-16",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-17",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-18",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-19",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-20",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-21",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-22",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-23",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-24",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-25",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-26",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-27",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-28",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-29",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-30",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-03-31",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-02",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-03",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-04",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-05",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-06",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-07",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-08",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-09",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-10",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-11",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-12",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-13",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-14",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-15",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-16",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-17",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-18",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-19",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  },
+  {
+    "date": "2025-04-20",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "assignment_due",
+          "course": "CS6501",
+          "description": "Dummy assignment due",
+          "assignment_type": "report",
+          "difficulty": 5
+        }
+      ],
+      "work": [
+        {
+          "job_title": "Research Assistant",
+          "hours": 2,
+          "tasks": [
+            "Dummy task"
+          ],
+          "exertion": 4
+        }
+      ],
+      "exercise": [
+        {
+          "type": "walking",
+          "duration_minutes": 30,
+          "notes": "Dummy walk around campus",
+          "exertion": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "journaling",
+          "description": "Dummy journal entry about the day",
+          "duration_minutes": 15
+        }
+      ],
+      "notes": "This is a dummy entry to show the schema format."
+    }
+  }
+]
