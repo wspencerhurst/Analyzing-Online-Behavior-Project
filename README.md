@@ -1,7 +1,7 @@
 ## Timeframe
 ### January 20 - April 20
 
-##Three things:
+## Three things:
 1. Basic correlations
     a. Like pearsons etc
     b. All features 
