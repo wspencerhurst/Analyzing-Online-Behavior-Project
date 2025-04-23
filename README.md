@@ -3,16 +3,16 @@
 
 ## Three things:
 1. Basic correlations
-    a. Like pearsons etc
-    b. All features 
+    * Like pearsons etc
+    * All features 
 2. Machine learning predictions:
-    a. X: a bunch of features from fitness/life
-    b. Y: stress (Garmin “Stress”, HRV, Resting Heart Rate)
-    c. Training being 2 of us and then 1 person is a test?
+    * X: a bunch of features from fitness/life
+    * Y: stress (Garmin “Stress”, HRV, Resting Heart Rate)
+    * Training being 2 of us and then 1 person is a test?
 3. LLM applications
-    a. Generated “journal entries” based on features
-    b. Categorize days/times periods e.g., study day, procrastination, travel, etc.
-    c. Visualize embeddings?
+    * Generated “journal entries” based on features
+    * Categorize days/times periods e.g., study day, procrastination, travel, etc.
+    * Visualize embeddings?
 
 ## Data
 * Events: Timeline JSON
