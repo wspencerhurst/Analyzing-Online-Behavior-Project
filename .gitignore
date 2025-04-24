@@ -1,3 +1,7 @@
 spencer_timeline.json
 joseph_timeline.json
 jackson_timeline.json
+
+./env
+__pycache__
+.DS_Store

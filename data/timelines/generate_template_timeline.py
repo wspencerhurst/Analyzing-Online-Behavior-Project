@@ -5,7 +5,7 @@ from datetime import date, timedelta
 # CONFIGURATION
 # ==========================
 
-person_name = "Spencer"  # Change to match the person this file is for
+person_name = "Jackson"  # Change to match the person this file is for
 output_path = f"data/timelines/{person_name.lower()}_timeline.json"
 start = date(2025, 1, 20)
 end = date(2025, 4, 20)
