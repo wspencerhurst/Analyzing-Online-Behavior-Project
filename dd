@@ -1,0 +1,76 @@
+{
+    "date": "2025-01-20",
+    "day_of_week": "Monday",
+    "person": "Spencer",
+    "events": {
+      "academic": [],
+      "work": [],
+      "exercise": [],
+      "activities": [
+        {
+          "type": "socializng",
+          "description": "Woke up at Wannas'.",
+          "duration_minutes": 30
+        },
+        {
+          "type": "errands",
+          "description": "Looked at cars, went grocery shopping, ate with mother.",
+          "duration_minutes": 180
+        },
+        {
+          "type": "traveling",
+          "description": "Rented U-Haul trailer, packed it, and moved to Charlottesville. Drove back to Richmond to return trailer",
+          "duration_minutes": 420
+        }
+      ],
+      "notes": "Big moving day. Had to bring trailer back to Richmond to save cost. Had to pack up everything from Granite and Wannas' and move to Grady Ave."
+    }
+  },
+  {
+    "date": "2025-01-21",
+    "day_of_week": "Tuesday",
+    "person": "Spencer",
+    "events": {
+      "academic": [
+        {
+          "type": "class",
+          "course": "Machine Learning",
+          "start_time": "9:30",
+          "end_time": "10:45",
+          "location": "Rice Hall 340"
+        },
+        {
+          "type": "class",
+          "course": "Software Analysis",
+          "start_time": "9:30",
+          "end_time": "10:45",
+          "location": "Rice Hall 340"
+        }
+      ],
+      "work": [],
+      "exercise": [],
+      "activities": [
+        {
+          "type": "traveling",
+          "description": "Drove from Richmond to Charllottesville",
+          "duration_minutes": 70
+        },
+        {
+          "type": "traveling",
+          "description": "Drove back to Richmond from Charllottesville",
+          "duration_minutes": 70
+        },
+        {
+          "type": "traveling",
+          "description": "Drove from Richmond to Charllottesville again",
+          "duration_minutes": 70
+        },
+        {
+          "type": "socializing",
+          "description": "Visited Wannas and mother/brothers.",
+          "duration_minutes": 70
+        }
+      ],
+      "notes": ""
+    }
+  },

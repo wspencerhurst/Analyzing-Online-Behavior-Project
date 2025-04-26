@@ -14,6 +14,8 @@ end = date(2025, 4, 20)
 # Set to True to fill each day with one dummy activity per category.
 # Set to False to generate a clean template with empty arrays.
 USE_DUMMY_ENTRIES = True
+# Toggle this to include dummy work entries when USE_DUMMY_ENTRIES is True.
+USE_DUMMY_WORK_ENTRIES = False
 
 # ==========================
 # GENERATOR FUNCTION
@@ -26,6 +28,7 @@ def generate_timeline(person, start_date, end_date, use_dummy=False):
     while current <= end_date:
         entry = {
             "date": current.isoformat(),
+            "day_of_week": current.strftime("%A"),
             "person": person,
             "events": {
                 "academic": [],
@@ -36,7 +39,48 @@ def generate_timeline(person, start_date, end_date, use_dummy=False):
             }
         }
 
+        # Scheduled classes
+        dow = current.strftime("%A")
+        if dow in ["Monday", "Wednesday"]:
+            entry["events"]["academic"].append({
+                "type": "class",
+                "course": "Reinforcement Learning",
+                "start_time": "9:30",
+                "end_time": "10:45",
+                "location": "Rice Hall 340"
+            })
+            entry["events"]["academic"].append({
+                "type": "class",
+                "course": "Network Security",
+                "start_time": "14:00",
+                "end_time": "15:15",
+                "location": "MEC 341"
+            })
+            entry["events"]["academic"].append({
+                "type": "class",
+                "course": "Analyzing Online Behavior",
+                "start_time": "15:30",
+                "end_time": "16:45",
+                "location": "MEC 341"
+            })
+        elif dow in ["Tuesday", "Thursday"]:
+            entry["events"]["academic"].append({
+                "type": "class",
+                "course": "Machine Learning",
+                "start_time": "9:30",
+                "end_time": "10:45",
+                "location": "Rice Hall 340"
+            })
+            entry["events"]["academic"].append({
+                "type": "class",
+                "course": "Software Analysis",
+                "start_time": "12:30",
+                "end_time": "13:45",
+                "location": "Rice Hall 340"
+            })
+
         if use_dummy:
+            # Dummy academic entry
             entry["events"]["academic"].append({
                 "type": "assignment_due",
                 "course": "CS6501",
@@ -44,24 +88,28 @@ def generate_timeline(person, start_date, end_date, use_dummy=False):
                 "assignment_type": "report",
                 "difficulty": 5
             })
-            entry["events"]["work"].append({
-                "job_title": "Research Assistant",
-                "hours": 2,
-                "tasks": ["Dummy task"],
-                "exertion": 4
-            })
+            # Dummy work entry (toggleable)
+            if USE_DUMMY_WORK_ENTRIES:
+                entry["events"]["work"].append({
+                    "job_title": "Research Assistant",
+                    "hours": 2,
+                    "tasks": ["Dummy task"],
+                    "exertion": 4
+                })
+            # Dummy exercise entry
             entry["events"]["exercise"].append({
-                "type": "walking",
-                "duration_minutes": 30,
-                "notes": "Dummy walk around campus",
-                "exertion": 3
+                "type": "Lifting",
+                "duration_minutes": 120,
+                "notes": "Chadwell Fall 2022 Lifting Program - Mem Gym",
+                "exertion": 7
             })
+            # Dummy activity entry
             entry["events"]["activities"].append({
                 "type": "journaling",
                 "description": "Dummy journal entry about the day",
                 "duration_minutes": 15
             })
-            entry["events"]["notes"] = "This is a dummy entry to show the schema format."
+            entry["events"]["notes"] = ""
 
         output.append(entry)
         current += timedelta(days=1)
