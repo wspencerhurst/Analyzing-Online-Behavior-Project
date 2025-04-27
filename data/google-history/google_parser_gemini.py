@@ -6,8 +6,18 @@ from dateutil import tz
 from datetime import datetime, timedelta
 import re
 from collections import Counter
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+#import torch
+#from transformers import AutoModelForCausalLM, AutoTokenizer
+from tqdm import tqdm
+import google.generativeai as genai
+import time
+
+import google.generativeai as genai
+
+genai.configure(api_key="<API_KEY>")
+model = genai.GenerativeModel('gemini-1.5-flash')
+
+
 
 # Local timezone - lmk if you went anywhere crazy
 local_tz = tz.gettz("America/New_York")
@@ -18,12 +28,12 @@ SLEEP_INACTIVITY_THRESHOLD = 300  # 5 hours
 # Words to ignore in activity content
 STOPWORDS = {"watched", "watch", "google", "youtube", "search", "com", "www", "https", "http"}
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
+'''device = "cuda" if torch.cuda.is_available() else "cpu"
 # Load TinyLlama Model
 print(f"Loading TinyLlama model onto {device}...")
 tokenizer = AutoTokenizer.from_pretrained("TinyLlama/TinyLlama-1.1B-Chat-v1.0")
 model = AutoModelForCausalLM.from_pretrained("TinyLlama/TinyLlama-1.1B-Chat-v1.0").to(device)
-print("TinyLlama loaded successfully.")
+print("TinyLlama loaded successfully.")'''
 
 
 def read_chrome_history(path):
@@ -75,16 +85,97 @@ def extract_phrases(ngrams, titles, stopwords, top_n=10):
     counter = Counter(phrases)
     return ", ".join([phrase for phrase, count in counter.most_common(top_n)])
 
-def summarize_titles(titles, max_tokens = 50):
-    """Use TinyLlama to summarize a day's activity titles into a short summary."""
+'''def summarize_titles(titles, max_tokens=100):
     try:
-        prompt = "Summarize today's activity: " + " ".join(titles)
-        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(device)
-        output = model.generate(**inputs, max_new_tokens=max_tokens, do_sample=True, temperature=0.7)
-        generated = tokenizer.decode(output[0], skip_special_tokens=True)
-        return generated[len(prompt):].strip()
+        activities = " ".join(titles)
+        prompt = (
+            "You are categorizing a person's day.\n\n"
+            "TASK:\n"
+            "- Read the activities.\n"
+            "- Group them into broad topics like studying, technology, finance, entertainment.\n"
+            "- DO NOT use video titles or video names.\n"
+            "- Write 3 to 5 short bullet points.\n"
+            "- Each bullet must be a short general category, 2-5 words only.\n"
+            "- Example:\n"
+            "- Studying for exams\n"
+            "- Watching finance news\n"
+            "- Gaming tutorials\n\n"
+            f"ACTIVITIES:\n{activities}\n\n"
+            "SUMMARY (bullet points):"
+        )
+        response = model.generate_content(prompt)
+        return response.text.strip()
     except Exception as e:
         print(f"Warning: Summarization failed. Error: {e}")
+        return ""
+
+
+def rate_stress_level(titles, max_tokens=10):
+    try:
+        activities = " ".join(titles)
+        prompt = (
+            "You are estimating how stressful a day was.\n\n"
+            "TASK:\n"
+            "- Read the activities.\n"
+            "- If the activities involve academic studying, work, deadlines, coding, or finance → Rate high stress (7-10).\n"
+            "- If the activities are entertainment, gaming, relaxation, casual browsing → Rate low stress (1-3).\n"
+            "- If a mix, rate medium (4-6).\n"
+            "- Only respond with a single number from 1 to 10. Nothing else.\n"
+            "- Example: 7\n\n"
+            f"ACTIVITIES:\n{activities}\n\n"
+            "STRESS RATING:"
+        )
+        response = model.generate_content(prompt)
+        text = response.text.strip()
+        match = re.search(r'\b([1-9]|10)\b', text)
+        if match:
+            return int(match.group(0))
+        else:
+            return -1
+    except Exception as e:
+        print(f"Warning: Stress rating failed. Error: {e}")
+        return -1'''
+
+def summarize_titles(titles, max_tokens=100):
+    try:
+        activities = " ".join(titles)
+        prompt = (
+            "Summarize the following activities into exactly 3 to 5 short bullet points. "
+            "Each bullet point should describe a broad activity type based on the following categories: studying, work, health and fitness, entertainment, or relaxation. "
+            "Do NOT copy video titles. Only use 2 to 6 words per bullet point.\n\n"
+            f"Activities:\n{activities}\n\n"
+            "Summary bullet points:"
+        )
+        response = model.generate_content(prompt)
+        return response.text.strip()
+    except Exception as e:
+        print(f"Warning: Summarization failed. Error: {e}")
+        return ""
+
+def rate_stress_level(titles, max_tokens=10):
+    try:
+        activities = " ".join(titles)
+        prompt = (
+            "Estimate the percentage of activities that involve academic studying, work tasks, coding projects, finance work, or job-related activities. "
+            "If 70% or more of activities are work-related, rate stress between 7–10. "
+            "If between 30% and 70% are work-related, rate stress between 4–6. "
+            "If less than 30% are work-related, rate stress between 1–3. "
+            "Respond ONLY with a single number from 1 to 10.\n\n"
+            f"Activities:\n{activities}\n\n"
+            "Stress rating:"
+        )
+        response = model.generate_content(prompt)
+        text = response.text.strip()
+        match = re.search(r'\b([1-9]|10)\b', text)
+        if match:
+            return int(match.group(0))
+        else:
+            return -1
+    except Exception as e:
+        print(f"Warning: Stress rating failed. Error: {e}")
+        return -1
+
+
 
 
 def main():
@@ -123,7 +214,7 @@ def main():
 
     print(all_usage["source"].value_counts())
 
-    for i in range(1, len(sleep_gaps)):
+    for i in tqdm(range(1, len(sleep_gaps)), desc="Processing Days"):
         prev_wake = sleep_gaps.loc[i - 1, "datetime"]
         curr_bed = sleep_gaps.loc[i, "datetime"]
 
@@ -153,6 +244,9 @@ def main():
             summary_bigrams = extract_phrases(2, titles, STOPWORDS)
             summary_trigrams = extract_phrases(3, titles, STOPWORDS)
             summary = summarize_titles(titles)
+            time.sleep(4)
+            stress_rating = rate_stress_level(titles)
+            time.sleep(4)
 
 
 
@@ -166,7 +260,8 @@ def main():
                     "keywords": summary_keywords,
                     "keybigrams": summary_bigrams,
                     "keytrigrams": summary_trigrams,
-                    "summary": summary
+                    "summary": summary,
+                    "stress_rating": stress_rating
                 }
 
     df_out = pd.DataFrame([
