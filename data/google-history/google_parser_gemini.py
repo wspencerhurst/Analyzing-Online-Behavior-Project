@@ -261,7 +261,7 @@ def main():
                     "keybigrams": summary_bigrams,
                     "keytrigrams": summary_trigrams,
                     "summary": summary,
-                    "stress_rating": stress_rating
+                    "llm_stress_rating": stress_rating
                 }
 
     df_out = pd.DataFrame([

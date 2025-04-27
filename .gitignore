@@ -7,3 +7,4 @@ jackson_timeline.json
 ./env
 __pycache__
 .DS_Store
+intake.py
