@@ -8,10 +8,7 @@ import re
 from collections import Counter
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
-<<<<<<< HEAD:data/google-history/google_parser.py
-=======
 from tqdm import tqdm
->>>>>>> acc0c0645ab87f6f43a61578ae7de5b64d7fbe00:data/google-history/google_parser_tinyllama.py
 
 # Local timezone - lmk if you went anywhere crazy
 local_tz = tz.gettz("America/New_York")
@@ -79,18 +76,6 @@ def extract_phrases(ngrams, titles, stopwords, top_n=10):
     counter = Counter(phrases)
     return ", ".join([phrase for phrase, count in counter.most_common(top_n)])
 
-<<<<<<< HEAD:data/google-history/google_parser.py
-def summarize_titles(titles, max_tokens = 50):
-    """Use TinyLlama to summarize a day's activity titles into a short summary."""
-    try:
-        prompt = "Summarize today's activity: " + " ".join(titles)
-        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(device)
-        output = model.generate(**inputs, max_new_tokens=max_tokens, do_sample=True, temperature=0.7)
-        generated = tokenizer.decode(output[0], skip_special_tokens=True)
-        return generated[len(prompt):].strip()
-    except Exception as e:
-        print(f"Warning: Summarization failed. Error: {e}")
-=======
 def summarize_titles(titles, max_tokens=100):
     try:
         activities = " ".join(titles)
@@ -150,7 +135,6 @@ def rate_stress_level(titles, max_tokens=10):
 
 
 
->>>>>>> acc0c0645ab87f6f43a61578ae7de5b64d7fbe00:data/google-history/google_parser_tinyllama.py
 
 
 def main():
@@ -219,10 +203,7 @@ def main():
             summary_bigrams = extract_phrases(2, titles, STOPWORDS)
             summary_trigrams = extract_phrases(3, titles, STOPWORDS)
             summary = summarize_titles(titles)
-<<<<<<< HEAD:data/google-history/google_parser.py
-=======
             stress_rating = rate_stress_level(titles)
->>>>>>> acc0c0645ab87f6f43a61578ae7de5b64d7fbe00:data/google-history/google_parser_tinyllama.py
 
 
 
@@ -236,12 +217,8 @@ def main():
                     "keywords": summary_keywords,
                     "keybigrams": summary_bigrams,
                     "keytrigrams": summary_trigrams,
-<<<<<<< HEAD:data/google-history/google_parser.py
-                    "summary": summary
-=======
                     "summary": summary,
                     "stress_rating": stress_rating
->>>>>>> acc0c0645ab87f6f43a61578ae7de5b64d7fbe00:data/google-history/google_parser_tinyllama.py
                 }
 
     df_out = pd.DataFrame([
