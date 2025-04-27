@@ -6,6 +6,8 @@ from dateutil import tz
 from datetime import datetime, timedelta
 import re
 from collections import Counter
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Local timezone - lmk if you went anywhere crazy
 local_tz = tz.gettz("America/New_York")
@@ -15,6 +17,13 @@ SLEEP_INACTIVITY_THRESHOLD = 300  # 5 hours
 
 # Words to ignore in activity content
 STOPWORDS = {"watched", "watch", "google", "youtube", "search", "com", "www", "https", "http"}
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+# Load TinyLlama Model
+print(f"Loading TinyLlama model onto {device}...")
+tokenizer = AutoTokenizer.from_pretrained("TinyLlama/TinyLlama-1.1B-Chat-v1.0")
+model = AutoModelForCausalLM.from_pretrained("TinyLlama/TinyLlama-1.1B-Chat-v1.0").to(device)
+print("TinyLlama loaded successfully.")
 
 
 def read_chrome_history(path):
@@ -66,9 +75,20 @@ def extract_phrases(ngrams, titles, stopwords, top_n=10):
     counter = Counter(phrases)
     return ", ".join([phrase for phrase, count in counter.most_common(top_n)])
 
+def summarize_titles(titles, max_tokens = 50):
+    """Use TinyLlama to summarize a day's activity titles into a short summary."""
+    try:
+        prompt = "Summarize today's activity: " + " ".join(titles)
+        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(device)
+        output = model.generate(**inputs, max_new_tokens=max_tokens, do_sample=True, temperature=0.7)
+        generated = tokenizer.decode(output[0], skip_special_tokens=True)
+        return generated[len(prompt):].strip()
+    except Exception as e:
+        print(f"Warning: Summarization failed. Error: {e}")
+
 
 def main():
-    chrome_path = os.path.join("takeout", "chrome", "History.json")
+    chrome_path = os.path.join("Takeout", "chrome", "History.json")
     watch_path = os.path.join("Takeout", "YouTube and YouTube Music", "history", "watch-history.json")
     search_path = os.path.join("Takeout", "YouTube and YouTube Music", "history", "search-history.json")
 
@@ -132,6 +152,7 @@ def main():
 
             summary_bigrams = extract_phrases(2, titles, STOPWORDS)
             summary_trigrams = extract_phrases(3, titles, STOPWORDS)
+            summary = summarize_titles(titles)
 
 
 
@@ -145,6 +166,7 @@ def main():
                     "keywords": summary_keywords,
                     "keybigrams": summary_bigrams,
                     "keytrigrams": summary_trigrams,
+                    "summary": summary
                 }
 
     df_out = pd.DataFrame([
