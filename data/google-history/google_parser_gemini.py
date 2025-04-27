@@ -226,8 +226,10 @@ def main():
             continue
 
         if not day_activities.empty:
-            earliest = day_activities["datetime"].min().strftime("%H:%M")
-            latest = day_activities["datetime"].max().strftime("%H:%M")
+            earliest_dt = day_activities["datetime"].min()
+            latest_dt   = day_activities["datetime"].max()
+            earliest    = earliest_dt.hour * 60 + earliest_dt.minute
+            latest      = latest_dt.hour   * 60 + latest_dt.minute
             total_count = len(day_activities)
             youtube_count = (day_activities["source"] == "YouTube").sum()
             chrome_count = (day_activities["source"] == "Chrome").sum()
