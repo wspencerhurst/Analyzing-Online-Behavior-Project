@@ -1,6 +1,8 @@
 spencer_timeline.json
 joseph_timeline.json
 jackson_timeline.json
+*.json
+*.csv
 
 ./env
 __pycache__
