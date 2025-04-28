@@ -471,7 +471,7 @@ def process_jackson_data():
             mod_mins = row.get('moderateIntensityMinutes_x', 0)
             vig_mins = row.get('vigorousIntensityMinutes_x', 0)
             if garmin_activity_duration_min > 0:
-                 avg_intensity_weight = ((mod_mins * 1) + (vig_mins * 2)) / (mod_mins + vig_mins) if (mod_mins + vig_mins) > 0 else 1
+                 avg_intensity_weight = ((mod_mins * 5) + (vig_mins * 10)) / (mod_mins + vig_mins) if (mod_mins + vig_mins) > 0 else 1
                  exercise_duration_weighted += garmin_activity_duration_min * avg_intensity_weight
 
             jackson_timeline_features[date_obj] = {
