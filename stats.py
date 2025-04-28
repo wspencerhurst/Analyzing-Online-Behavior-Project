@@ -80,7 +80,7 @@ def analyze_person_data(df, name):
 
     print(f"Generating Heatmap for {name}...")
     plt.figure(figsize=(12, 10))
-    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt=".1f", linewidths=.5, annot_kws={"size": 8})
+    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt=".1f", linewidths=.5, annot_kws={"size": 8}, vmin=-1, vmax=1)
     plt.title(f'Correlation Matrix Heatmap - {name} (All-Zero Rows Excluded)')
     plt.xticks(rotation=45, ha='right', fontsize=8)
     plt.yticks(rotation=0, fontsize=8)
