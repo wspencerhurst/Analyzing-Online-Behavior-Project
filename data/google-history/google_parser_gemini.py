@@ -14,7 +14,7 @@ import time
 
 import google.generativeai as genai
 
-genai.configure(api_key="<API_KEY>")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 
