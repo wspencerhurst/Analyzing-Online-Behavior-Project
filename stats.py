@@ -144,6 +144,58 @@ if __name__ == "__main__":
 
             analyze_person_data(numeric_combined_df, "Combined (Filtered Columns)")
 
+
+            combined_df.reset_index(inplace=True)
+            if 'index' in combined_df.columns:
+                combined_df.rename(columns={'index': 'date'}, inplace=True) 
+            elif 'calendarDate' in combined_df.columns and combined_df['calendarDate'].duplicated().any():
+                pass
+
+            print(f"Combined DataFrame shape after resetting index: {combined_df.shape}")
+            print("Columns after resetting index:", combined_df.columns)
+
+            print("\n--- Generating Distribution Comparison Plots ---")
+
+            distribution_vars = [
+                'stress', 'llm_stress_rating', 'hrv', 'restingHeartRate',
+                'total_duration', 'event_count', 'exercise_duration_weighted',
+                'total_activity_count', 'youtube_activity_count', 'chrome_activity_count',
+                'early_late_duration', 'academic_count', 'assignment_count',
+                'assignment_difficulty_sum'
+            ]
+
+            plot_df = combined_df[combined_df['person'].isin(loaded_people)].copy()
+
+            n_vars = len(distribution_vars)
+            n_cols = 3
+            n_rows = (n_vars + n_cols - 1) // n_cols
+
+            fig_dist, axes_dist = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 4 * n_rows), squeeze=False) # Use squeeze=False for consistent indexing
+            axes_dist = axes_dist.flatten()
+
+            plot_count = 0
+            for i, var in enumerate(distribution_vars):
+                if var in plot_df.columns and pd.api.types.is_numeric_dtype(plot_df[var]):
+                    if plot_df[var].notna().sum() > 0:
+                        ax = axes_dist[plot_count]
+                        sns.boxplot(x='person', y=var, data=plot_df, ax=ax, order=loaded_people)
+                        ax.set_title(f'Distribution of {var}')
+                        ax.set_xlabel('Person')
+                        ax.set_ylabel(var)
+                        ax.tick_params(axis='x', rotation=45)
+                        plot_count += 1
+                    else:
+                        print(f"Skipping boxplot for '{var}' due to all NaN values.")
+                else:
+                    print(f"Skipping boxplot for '{var}' as it's not numeric or not found in combined data.")
+            
+            for j in range(plot_count, len(axes_dist)):
+                fig_dist.delaxes(axes_dist[j])
+            plt.suptitle('Distribution Comparisons Across Individuals', fontsize=16, y=1.02)
+            plt.tight_layout(rect=[0, 0.03, 1, 0.98])
+            dist_fig_path = os.path.join(BASE_DATA_PATH, 'distribution_comparison.png')
+            fig_dist.savefig(dist_fig_path, dpi=300, bbox_inches='tight')
+
         else:
             print("No data loaded, skipping combined analysis.")
 

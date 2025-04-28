@@ -32,7 +32,7 @@ STOPWORDS = {"watched", "watch", "google", "youtube", "search", "com", "www", "h
 # !!! IMPORTANT: Replace "<API_KEY>" with your actual Google API key !!!
 # --- START OF CHANGES ---
 # Check if API key is set as an environment variable first
-genai.configure(api_key="AIzaSyB9X1LSI6qsL2HpjVt_njEBNdTol30Wg3Y")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # --- END OF CHANGES ---
