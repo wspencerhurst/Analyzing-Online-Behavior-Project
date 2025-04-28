@@ -3,6 +3,7 @@ joseph_timeline.json
 jackson_timeline.json
 *.json
 *.csv
+*.html
 
 ./env
 __pycache__

@@ -14,7 +14,7 @@ import time
 
 import google.generativeai as genai
 
-genai.configure(api_key="")
+genai.configure(api_key="<API_KEY>")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 
@@ -179,9 +179,9 @@ def rate_stress_level(titles, max_tokens=10):
 
 
 def main():
-    chrome_path = os.path.join("Takeout", "chrome", "History.json")
-    watch_path = os.path.join("Takeout", "YouTube and YouTube Music", "history", "watch-history.json")
-    search_path = os.path.join("Takeout", "YouTube and YouTube Music", "history", "search-history.json")
+    chrome_path = os.path.join("data", "google-history", "joseph", "Takeout", "chrome", "History.json")
+    watch_path = os.path.join("data", "google-history", "joseph", "Takeout", "YouTube and YouTube Music", "history", "watch-history.json")
+    search_path = os.path.join("data", "google-history", "joseph", "Takeout", "YouTube and YouTube Music", "history", "search-history.json")
 
     chrome_df = read_chrome_history(chrome_path)
     youtube_df = read_youtube_history(watch_path, search_path)
