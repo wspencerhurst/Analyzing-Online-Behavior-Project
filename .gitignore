@@ -4,6 +4,7 @@ jackson_timeline.json
 *.json
 *.csv
 *.html
+*.png
 
 ./env
 __pycache__
